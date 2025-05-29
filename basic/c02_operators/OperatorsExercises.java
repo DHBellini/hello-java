@@ -19,6 +19,12 @@ public class OperatorsExercises {
         System.out.println(b / a);
 
         // 2. Crea una variable para cada tipo de operación de asignación.
+        int c = 5;
+        int d = 7;
+
+        System.out.println(c*3);
+        System.out.println(d / 7);
+
 
         // 3. Imprime 3 comparaciones verdaderas con diferentes operadores de comparación.
 
