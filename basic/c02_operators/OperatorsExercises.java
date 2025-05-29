@@ -10,6 +10,13 @@ public class OperatorsExercises {
     public static void main(String[] args) {
 
         // 1. Crea una variable con el resultado de cada operación aritmética.
+        int a = 2;
+        int b = 4;
+
+        System.out.println(a + b);
+        System.out.println(a - b);
+        System.out.println(a * b);
+        System.out.println(b / a);
 
         // 2. Crea una variable para cada tipo de operación de asignación.
 
