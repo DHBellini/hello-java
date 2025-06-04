@@ -27,19 +27,35 @@ public class OperatorsExercises {
 
 
         // 3. Imprime 3 comparaciones verdaderas con diferentes operadores de comparación.
+        System.out.println(a < c);
+        System.out.println(d > b);
+        System.out.println(c != d);
 
         // 4. Imprime 3 comparaciones falsas con diferentes operadores de comparación.
+        System.out.println(a > d);
+        System.out.println(b == c);
+        System.out.println(d < b);
 
         // 5. Utiliza el operador lógico and.
+        System.out.println(a < d && b < d);
 
         // 6. Utiliza el operador lógico or.
+        System.out.println(b > a || c > a);
 
         // 7. Combina ambos operadores lógicos.
+        System.out.println(d > a && c < b || a != b);
 
         // 8. Añade alguna negación.
+        System.out.println(!(d != a));
 
         // 9. Imprime 3 ejemplos de uso de operadores unarios.
+        System.out.println(b++);
+        System.out.println(b);
+        System.out.println(c--);
+        System.out.println(c);
+        System.out.println(++d);
 
         // 10. Combina operadores aritméticos, de comparación y lógicos.
+        System.out.println(a + b > c && d - a < c);
     }
 }
